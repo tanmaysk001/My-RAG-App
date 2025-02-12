@@ -1,6 +1,3 @@
-Below is an example of a polished, informative, and professional README for your project. You can copy the content into your README.md file and adjust details as needed.
-
----
 
 # RAG AI App
 
@@ -147,6 +144,3 @@ Contributions are welcome! Please fork the repository and submit pull requests. 
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
----
-
-Feel free to adjust and expand this README as your project evolves. Happy coding!
