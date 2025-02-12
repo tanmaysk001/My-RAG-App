@@ -13,7 +13,7 @@ Below is an example of a polished, informative, and professional README for your
 The **RAG AI Project** is a comprehensive system that demonstrates retrieval-augmented generation (RAG) by combining state-of-the-art NLP techniques, document processing, vector database management, and LLM integration. This project integrates a FastAPI backend with a user-friendly Gradio UI, enabling seamless document ingestion, semantic search, and context-aware response generation.
 
 ## Architecture
-![Project Architecture Banner]('Project Architechture.png')
+![Project Architecture Banner](Project_Architechture.png)
 
 The overall architecture of the project is designed to handle the entire data flow—from document ingestion to response generation. The key components include:
 
@@ -31,7 +31,7 @@ The overall architecture of the project is designed to handle the entire data fl
   Uses Sentence Transformers to generate document embeddings and stores them in Pinecone for efficient vector search.
 
 - **LLM Integration:**  
-  Utilizes the Groq API to integrate with a language model (e.g., LLaMA) for generating context-aware responses.
+  Utilizes the Groq API to integrate with a language model (e.g., LLaMA 3.3 70B) for generating context-aware responses.
 
 - **Deployment & DevOps:**  
   Containerized using Docker with CI/CD integration via GitHub Actions and deployed on Hugging Face Spaces.
@@ -133,7 +133,7 @@ python app.py
 
 ## Technologies & Tools
 
-- **Backend:** Python, FastAPI, Uvicorn
+- **Backend:** Python 3.12, FastAPI, Uvicorn
 - **Frontend:** Gradio
 - **Machine Learning:** Sentence Transformers, Groq API (LLaMA integration)
 - **Vector Database:** Pinecone
