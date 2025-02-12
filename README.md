@@ -35,9 +35,7 @@ The overall architecture of the project is designed to handle the entire data fl
 
 - **Deployment & DevOps:**  
   Containerized using Docker with CI/CD integration via GitHub Actions and deployed on Hugging Face Spaces.
-
-For a visual representation of the architecture, check out the [Excalidraw Architecture Diagram](https://excalidraw.com/#json=l_QeD50z1CTGNtacmbUG6,FPQTRKphCI8JEcHsvVqxig).
-
+  
 ## Features
 
 - **End-to-End RAG Pipeline:**  
@@ -129,8 +127,8 @@ python app.py
    Create a new Hugging Face Space and link it to your repository. The app’s entry point (`app.py`) will be used automatically.
 
 4. **Access the Live Demo:**  
-   Once deployed, your app will be available online at [https://huggingface.co/spaces/Tsk001/RAG_Gradio_App](https://huggingface.co/spaces/Tsk001/RAG_Gradio_App).
-
+   Once deployed, your app will be available online at Huggingface spaces
+   
 ## Technologies & Tools
 
 - **Backend:** Python 3.12, FastAPI, Uvicorn
