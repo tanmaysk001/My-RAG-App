@@ -1,0 +1,9 @@
+env_dev_rag/
+.pytest*/
+.mypy*/
+__pycache__/
+.vscode/
+.github/
+.pre-commit*
+rag_instance.pem
+notes_docker_ec2
